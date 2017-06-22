@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:background="#ADD8E6"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/app_name"
+        android:layout_gravity="top|left"
+        android:src="@drawable/mk_other"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="6dp"
+        android:padding="1dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/common_plus_signin_btn_text_light_pressed"
+            android:textSize="20sp"
+            android:layout_gravity="top|right"
+            android:textStyle="bold"
+            android:background="@color/colorPrimary"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="4dp" />
+
+
+        <ImageView
+            android:id="@+id/imageViewSeparator"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/linea_separadora"
+            android:scaleType="fitXY"
+            android:layout_marginRight="4dp" />
+
+
+        <TextView
+            android:id="@+id/Lat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/common_plus_signin_btn_text_light_pressed"
+            android:textSize="15sp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/Lon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/common_plus_signin_btn_text_light_pressed"
+            android:textSize="15sp"
+            android:gravity="center_horizontal"
+            android:paddingRight="10dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

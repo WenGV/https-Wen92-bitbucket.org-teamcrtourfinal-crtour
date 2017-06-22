@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">CRTOUR</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_pager">PagerActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Restaurant</string>
+    <string name="slide_1_desc">The easiest way to find food your favourite restaurant!</string>
+
+    <string name="slide_2_title">Hotel</string>
+    <string name="slide_2_desc">The best hotel of Guanacaste</string>
+
+    <string name="slide_3_title">Ship</string>
+    <string name="slide_3_desc">Many place to visit</string>
+
+    <string name="slide_4_title">Market</string>
+    <string name="slide_4_desc">Do not worry if you dont know where to buy</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="title_activity_main2">Login</string>
+    <string name="title_activity_crmap">Map</string>
+
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_apellido">Apellidos</string>
+    <string name="hint_telefono">Telefono</string>
+    <string name="hint_correo">Correo</string>
+    <string name="hint_edad">Edad</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="accion_cancelar">Cancelar</string>
+    <string name="accion_aceptar">Registrar</string>
+    <string name="accion_login">Entrar</string>
+
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+</resources>
